@@ -23,3 +23,20 @@ const items2: Array<number> = [1,2,3,"nothing"];
 console.log(items2);
 
 // multi-dimensional arrays
+const matrix: number[][] = [
+    [1,2],
+    [3,4],
+];
+
+const singdi: number[] = [1,2,3,4,5,6];
+const multidi: number[][] = [
+    [1,2,4],
+    [65,43],
+];
+const tridi: number[][][] = [
+    [
+        [1,2,3,4],
+        [2323,32],
+        [32],
+    ]
+];
