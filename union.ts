@@ -26,3 +26,4 @@ console.log(user);
 
 const item: (number | string)[] = [1, 3, "hello"];
 console.log(item);
+
