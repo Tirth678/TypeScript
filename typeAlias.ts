@@ -35,4 +35,15 @@ type User = {
     email: "example@service.com"
   };
   // here email is with ? which means that object property is optional to include as in ts whatever is defined has to be used stricly
-  
+  // in output it will show undefined, coz ts is not sure weather to include it or not so then we can remove the question mark to keep the propety or to remove it
+
+  // readonly
+
+type person2 = {
+    Name: string,
+    Gender: string,
+    Enroll: number,
+    email?: string,
+    readonly style: string,
+  };
+// this property is readonly and its value cannot be changed in simple words
