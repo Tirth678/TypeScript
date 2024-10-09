@@ -7,3 +7,15 @@ const person: {firstName: string, lastName: string, age: number} = {
     age: 30,
 };
 console.log(`name = ${person.firstName}, age = ${person.age}`);
+
+
+function returnSomething(): {name: string; rollNo: number; gender: string} {
+    return {
+        name: "Example",
+        rollNo: 19,
+        gender: "Male",
+    }
+};
+
+const res = returnSomething();
+console.log(res);
